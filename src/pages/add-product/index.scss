@@ -1,15 +1,57 @@
-#add-product-page{
-    padding: 40px 0;
-    .add-product{
+#add-product-page {
+  padding: 100px 0;
+  .add-product {
+    display: flex;
+    justify-content: center;
+    form {
+      label {
+        font-size: 15px;
+        color: darkblue;
+        font-weight: 600;
+      }
+      .input-control {
+        width: 300px;
+        margin-top: 10px;
+        input {
+          width: 100%;
+          outline: 0;
+          padding: 6px 10px;
+          margin: 8px 0;
+          border-radius: 5px;
+          border: 1px solid rgb(205, 206, 207);
+          &:hover {
+            box-shadow: 0px 0px 1px 1px blue;
+          }
+          &:focus {
+            box-shadow: 0px 0px 1px 1px rgb(118, 118, 253);
+          }
+        }
+        textarea {
+          width: 100%;
+          outline: 0;
+          padding: 6px 10px;
+          margin: 8px 0;
+          border-radius: 5px;
+          border: 1px solid rgb(205, 206, 207);
+        }
+      }
+      .btn{
         display: flex;
         justify-content: center;
-        form{
-            .input-control{
-                input{
-                    outline: 0;
-                    // padding: 10px;
-                }
-            }
+        align-items: center;
+        margin-top: 20px;
+        button{
+            background-color: blue;
+            outline: 0;
+            border: 0;
+            padding: 10px 20px;
+            color: white;
+            font-weight: 500;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
         }
+      }
     }
+  }
 }

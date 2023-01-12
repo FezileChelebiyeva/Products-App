@@ -8,19 +8,20 @@ import "./index.scss";
 
 const AddProduct = () => {
   const dispatch = useDispatch();
-  const formik = useFormik({
-    initialValues: {
-      name: "",
-      price: "",
-      description: "",
-      imgUrl: "",
-    },
-    validationSchema: productSchema,
-    onSubmit: (values, { resetForm }) => {
-      dispatch(postData(values));
-      resetForm();
-    },
-  });
+  const { values, resetForm, errors, touched, handleSubmit, handleChange } =
+    useFormik({
+      initialValues: {
+        name: "",
+        price: "",
+        description: "",
+        imgUrl: "",
+      },
+      validationSchema: productSchema,
+      onSubmit: () => {
+        dispatch(postData(values));
+        resetForm();
+      },
+    });
   return (
     <div id="add-product-page">
       <Helmet>
@@ -29,57 +30,83 @@ const AddProduct = () => {
       </Helmet>
       <div className="container">
         <div className="add-product">
-          <form onSubmit={formik.handleSubmit}>
+          <form onSubmit={handleSubmit}>
             <div className="input-control">
               <p>
-                <label htmlFor="name">Name</label>
+                <label htmlFor="name">Name:</label>
               </p>
               <input
                 id="name"
                 name="name"
                 type="text"
-                onChange={formik.handleChange}
-                value={formik.values.name}
+                onChange={handleChange}
+                value={values.name}
+                placeholder="Name"
               />
+              {errors.name && touched.name && (
+                <div style={{ color: "red", fontSize: "13px" }}>
+                  {errors.name}
+                </div>
+              )}
             </div>
             <div className="input-control">
               <p>
-                <label htmlFor="price">Price</label>
+                <label htmlFor="price">Price:</label>
               </p>
               <input
                 id="price"
                 name="price"
                 type="number"
-                onChange={formik.handleChange}
-                value={formik.values.price}
+                onChange={handleChange}
+                value={values.price}
+                placeholder="Price"
               />
+              {errors.price && touched.price && (
+                <div style={{ color: "red", fontSize: "13px" }}>
+                  {errors.price}
+                </div>
+              )}
             </div>
             <div className="input-control">
               <p>
-                <label htmlFor="description">Description</label>
+                <label htmlFor="description">Description:</label>
               </p>
               <textarea
                 name="description"
                 id="description"
                 cols="20"
                 rows="2"
-                onChange={formik.handleChange}
-                value={formik.values.description}
+                onChange={handleChange}
+                value={values.description}
+                placeholder="Description"
               ></textarea>
+              {errors.description && touched.description && (
+                <div style={{ color: "red", fontSize: "13px" }}>
+                  {errors.description}
+                </div>
+              )}
             </div>
             <div className="input-control">
               <p>
-                <label htmlFor="imgUrl">Image Url</label>
+                <label htmlFor="imgUrl">Image Url:</label>
               </p>
               <input
                 id="imgUrl"
                 name="imgUrl"
                 type="text"
-                onChange={formik.handleChange}
-                value={formik.values.imgUrl}
+                onChange={handleChange}
+                value={values.imgUrl}
+                placeholder="Image Url"
               />
+              {errors.imgUrl && touched.imgUrl && (
+                <div style={{ color: "red", fontSize: "13px" }}>
+                  {errors.imgUrl}
+                </div>
+              )}
             </div>
+            <div className="btn">
             <button type="submit">Submit</button>
+            </div>
           </form>
         </div>
       </div>

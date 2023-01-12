@@ -1,32 +1,32 @@
 {
   "products": [
     {
-      "id": 2,
+      "id": 0,
       "name": "ASUS M509",
       "price": "4000",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "imgUrl": "https://www.asus.com/media/global/gallery/dwpswpjoyhaqepco_setting_xxx_0_90_end_2000.png"
     },
     {
-      "id": 3,
+      "id": 1,
       "name": "Zenbook 15 UX534",
       "price": "3000",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "imgUrl": "https://www.asus.com/media/global/gallery/vat73rr6tsw3q8dz_setting_xxx_0_90_end_2000.png"
     },
     {
-      "id": 4,
-      "name": "Zenbook 15 UX534",
-      "price": "3000",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "imgUrl": "https://www.asus.com/media/global/gallery/vat73rr6tsw3q8dz_setting_xxx_0_90_end_2000.png"
+      "name": "Lilah Hoover",
+      "price": 2400,
+      "description": "lorem ipsum dolar lorem ipsum dolar ",
+      "imgUrl": "https://www.asus.com/media/global/gallery/vat73rr6tsw3q8dz_setting_xxx_0_90_end_2000.png",
+      "id": 3
     },
     {
-      "name": "Danielle Horne",
-      "price": 725,
-      "description": "Itaque corrupti com",
-      "imgUrl": "Eum eum excepteur ma",
-      "id": 5
+      "name": "Lysandra Gilbert",
+      "price": 7020,
+      "description": "Provident tempor ut Provident tempor ut ",
+      "imgUrl": "https://dlcdnwebimgs.asus.com/gain/d895a2b9-233a-4f11-91fd-b22788ac973f/",
+      "id": 4
     }
   ]
 }
