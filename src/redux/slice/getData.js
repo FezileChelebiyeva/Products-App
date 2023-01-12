@@ -18,7 +18,6 @@ export const deleteData = createAsyncThunk("deleteData", async (id) => {
 
 export const postData = createAsyncThunk("postData", async (values) => {
   await axios.post("http://localhost:8000/products", values);
-  // return response.data;
 });
 
 export const getDataSlice = createSlice({

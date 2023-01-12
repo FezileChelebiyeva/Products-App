@@ -1,32 +1,39 @@
 {
   "products": [
     {
-      "id": 0,
-      "name": "ASUS M509",
-      "price": "4000",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "imgUrl": "https://www.asus.com/media/global/gallery/dwpswpjoyhaqepco_setting_xxx_0_90_end_2000.png"
+      "name": "Kylynn Brock",
+      "price": 268,
+      "description": "Eos aute voluptatem voluptatem voluptatem aute ",
+      "imgUrl": "https://dlcdnwebimgs.asus.com/gain/aad81170-e69a-4054-9db1-006a85588c9d/",
+      "id": 7
     },
     {
-      "id": 1,
-      "name": "Zenbook 15 UX534",
-      "price": "3000",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "imgUrl": "https://www.asus.com/media/global/gallery/vat73rr6tsw3q8dz_setting_xxx_0_90_end_2000.png"
-    },
-    {
-      "name": "Lilah Hoover",
-      "price": 2400,
-      "description": "lorem ipsum dolar lorem ipsum dolar ",
-      "imgUrl": "https://www.asus.com/media/global/gallery/vat73rr6tsw3q8dz_setting_xxx_0_90_end_2000.png",
-      "id": 3
-    },
-    {
-      "name": "Lysandra Gilbert",
-      "price": 7020,
-      "description": "Provident tempor ut Provident tempor ut ",
+      "name": "Kylynn Brock",
+      "price": 268,
+      "description": "Eos aute voluptatem voluptatem voluptatem aute ",
       "imgUrl": "https://dlcdnwebimgs.asus.com/gain/d895a2b9-233a-4f11-91fd-b22788ac973f/",
-      "id": 4
+      "id": 17
+    },
+    {
+      "name": "Kylynn Brock",
+      "price": 268,
+      "description": "Eos aute voluptatem voluptatem voluptatem aute ",
+      "imgUrl": "https://dlcdnwebimgs.asus.com/gain/7449fc82-c00d-474e-8eed-89e2586d5b2e/",
+      "id": 25
+    },
+    {
+      "name": "Kylynn Brock",
+      "price": 268,
+      "description": "Eos aute voluptatem voluptatem voluptatem aute ",
+      "imgUrl": "https://www.asus.com/media/global/gallery/vat73rr6tsw3q8dz_setting_xxx_0_90_end_2000.png",
+      "id": 29
+    },
+    {
+      "name": "Kylynn Brock",
+      "price": 268,
+      "description": "Eos aute voluptatem voluptatem voluptatem aute ",
+      "imgUrl": "https://www.asus.com/media/global/gallery/vat73rr6tsw3q8dz_setting_xxx_0_90_end_2000.png",
+      "id": 30
     }
   ]
 }
