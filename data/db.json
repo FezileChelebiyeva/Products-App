@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "ASUS M509",
+      "price": "4000",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "imgUrl": "https://www.asus.com/media/global/gallery/dwpswpjoyhaqepco_setting_xxx_0_90_end_2000.png"
+    },
+    {
+      "id": 3,
+      "name": "Zenbook 15 UX534",
+      "price": "3000",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "imgUrl": "https://www.asus.com/media/global/gallery/vat73rr6tsw3q8dz_setting_xxx_0_90_end_2000.png"
+    },
+    {
+      "id": 4,
+      "name": "Zenbook 15 UX534",
+      "price": "3000",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "imgUrl": "https://www.asus.com/media/global/gallery/vat73rr6tsw3q8dz_setting_xxx_0_90_end_2000.png"
+    },
+    {
+      "name": "Danielle Horne",
+      "price": 725,
+      "description": "Itaque corrupti com",
+      "imgUrl": "Eum eum excepteur ma",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+#add-product-page{
+    padding: 40px 0;
+    .add-product{
+        display: flex;
+        justify-content: center;
+        form{
+            .input-control{
+                input{
+                    outline: 0;
+                    // padding: 10px;
+                }
+            }
+        }
+    }
+}

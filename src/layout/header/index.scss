@@ -1,0 +1,30 @@
+#header{
+    background-color: aliceblue;
+    .header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo{
+            img{
+                width: 150px;
+            }
+        }
+        .nav{
+            ul{
+                display: flex;
+                column-gap: 20px;
+                li{
+                    a{
+                        font-size: 18px;
+                        color: black;
+                        font-weight: 600;
+                        &.active{
+                            color: rgb(189, 1, 1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

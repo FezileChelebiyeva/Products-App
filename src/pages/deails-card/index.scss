@@ -1,0 +1,45 @@
+#details-page {
+  .details {
+    .card {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .img {
+        img {
+          width: 700px;
+        }
+      }
+      .about {
+        text-align: center;
+        h2 {
+          text-align: center;
+          color: rgb(0, 0, 88);
+          font-size: 35px;
+        }
+        .title {
+          padding: 25px;
+          .id {
+            margin-top: 20px;
+            font-size: 20px;
+          }
+          .price {
+            margin-top: 20px;
+            font-size: 20px;
+          }
+          .description {
+            margin-top: 20px;
+          }
+          .name {
+            font-weight: 800;
+            color: black;
+            font-size: 20px;
+          }
+          .value {
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
