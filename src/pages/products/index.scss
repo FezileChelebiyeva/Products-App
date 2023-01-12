@@ -31,15 +31,22 @@
           color: rgb(0, 0, 88);
           font-size: 21px;
         }
+        .id{
+          margin-top: 8px;
+        }
+        .price{
+          margin: 8px 0;
+        }
         .title {
           padding: 15px;
-          .name {
-            font-weight: 800;
-            color: black;
-          }
-          .value {
-            color: rgb(0, 0, 0);
-          }
+          margin-top: 8px;
+        }
+        .name {
+          font-weight: 800;
+          color: black;
+        }
+        .value {
+          color: rgb(0, 0, 0);
         }
         .btn {
           display: flex;
